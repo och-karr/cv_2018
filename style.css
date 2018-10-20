@@ -1,0 +1,204 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #fff;
+}
+
+/*-----------------BOXES-----------------*/
+.container {
+    background: url(images/grey3.jpg);
+    background-size: contain;
+    height: 297mm;
+    width: 210mm;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+
+[class^="page"]{
+    background: #fff;
+    width: 100%;
+}
+
+.page-first {
+    height: 83%;
+    position: relative;
+}
+
+.page-second {
+    height: 90%;
+}
+
+section {
+    padding: 10px 60px 0px 60px;
+    position: relative;
+}
+
+footer {
+    /* height: 200px; */
+    width: 100%;
+}
+
+/*-----------------FOTO-----------------*/
+.foto {
+    border-radius: 50%;
+    border: rgb(110, 110, 110) solid 6px;
+    background:url(images/foto.JPG);
+    background-size: 160px;
+    background-position-x: 7px;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    right: 60px;
+    top: -93px;
+}
+
+/*-----------------LINE-----------------*/
+.line {
+    height: 0;
+    padding: 0;
+    margin: 0;
+    border: rgb(110, 110, 110) solid 3px;
+    background-color: rgb(110, 110, 110);
+    left: 0px;
+}
+
+header>.line {
+    width: 550px;
+}
+
+.profile>.line {
+    width: 120px;
+    position: absolute;
+}
+
+.skills>.line {
+    width: 170px;
+    position: absolute;
+}
+
+.courses>.line {
+    width: 295px;
+    position: absolute;
+}
+
+.education>.line {
+    width: 137px;
+    position: absolute;
+}
+
+.languages>.line {
+    width: 157px;
+    position: absolute;
+}
+
+.interests>.line {
+    width: 198px;
+    position: absolute;
+}
+
+/*-----------------LINKS AND ICONS-----------------*/
+.contact span a {
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.contact span .city {
+    font-size: 14px;
+}
+
+a, a:focus, a:hover, a:active, a:visited {
+    color: #000;
+} 
+
+i {
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+}
+
+table {
+    width: 70%;
+}
+
+.fas , .fab {
+    font-size: 22px;
+}
+
+/*-----------------HEADINGS-----------------*/
+h1 {
+    margin: 0;
+    line-height: 50px;
+    padding: 80px 0 0 60px;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: rgb(64, 160, 238);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding-left: 150px;
+    padding-top: 5px;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+/*-----------------TEXTES-----------------*/
+.content {
+    text-align: justify;
+    padding: 15px 0 0 0;
+    /* display: inline-block; */
+}
+
+.skills .content li  {
+    white-space: pre;
+}
+
+.skills .content li span {
+    font-weight: bold;
+    list-style-type: circle;
+    padding: 5px 0;
+}
+
+.school {
+    font-weight: bold;
+    padding: 5px 0;
+    display: inline-block;
+    width: 70%;
+}
+
+.date {
+    text-align: right;
+    padding: 5px 0;
+    display: inline-block;
+    width: 30%;
+}
+
+.courses p:first-of-type {
+    padding-bottom: 5px;
+}
+
+.languages span:first-of-type {
+    font-weight: bold;
+}
+
+footer>p {
+    font-size: 7px;
+    padding: 6px 60px 0px 60px;
+    text-align: justify;
+}
